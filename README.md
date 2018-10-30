@@ -5,7 +5,7 @@ Ontology alignment (also called ontology matching) is the process of identifying
 ## References
 
 - Ernesto Jiménez-Ruiz, Terry R. Payne, Alessandro Solimando, Valentina A. M. Tamma:
-**Limiting Logical Violations in Ontology Alignnment Through Negotiation**. KR 2016: 217-226. ([PDF](http://www.cs.ox.ac.uk/files/8036/kr2016_jimenez-ruiz.pdf)) 
+**Limiting Logical Violations in Ontology Alignnment Through Negotiation**. KR 2016: 217-226. ([PDF](http://www.cs.ox.ac.uk/files/8036/kr2016_jimenez-ruiz.pdf))([Slides](https://www.slideshare.net/ernestojimenezruiz/limiting-logical-violations-in-ontology-alignnment-through-negotiation)) 
 - Terry R. Payne, Valentina A. M. Tamma:
 **Negotiating over ontological correspondences with asymmetric and incomplete knowledge**. AAMAS 2014: 517-524. ([PDF](https://pdfs.semanticscholar.org/3e68/e33e6610e120027a613a7cad74a6e2467f35.pdf))
 - Alessandro Solimando, Ernesto Jiménez-Ruiz, Giovanna Guerrini:
