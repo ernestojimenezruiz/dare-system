@@ -9,7 +9,7 @@ Ontology alignment (also called ontology matching) is the process of identifying
 	1. Clone repository: [https://github.com/ernestojimenezruiz/logmap-conservativity](https://github.com/ernestojimenezruiz/logmap-conservativity)
  (e.g., `git clone https://github.com/ernestojimenezruiz/logmap-conservativity.git`)
 	2. Run `mvn clean install` under the _logmap-conservativity_ project folder.
-* Run `mvn clean install` under the _dare-system_ project folder.
+* To generate a JAR file using for the **DARE** system, run `mvn clean install` under the _dare-system_ project folder.
 * Dependencies:	
 
 	1. Together with the JAR file maven will also generate a folder with the "java-dependencies" (inclusing logmap-conservativity library)
