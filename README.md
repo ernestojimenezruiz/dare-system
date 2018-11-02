@@ -5,19 +5,19 @@ Ontology alignment (also called ontology matching) is the process of identifying
 ## Use and Installation
 
 * This project can be imported into Eclipse or other environments as a maven project or it can be cloned using `git clone https://github.com/ernestojimenezruiz/dare-system.git`
-* This project depends on the LogMap's extension for the Conservativity Principle 
+* This project depends on the _logmap-conservativity_ project: 
 	1. Clone repository: [https://github.com/ernestojimenezruiz/logmap-conservativity](https://github.com/ernestojimenezruiz/logmap-conservativity)
  (e.g., `git clone https://github.com/ernestojimenezruiz/logmap-conservativity.git`)
-	2. Run `mvn clean install` under the logmap-conservativity project folder.
-* Run `mvn clean install` under dare-system main project folder.
+	2. Run `mvn clean install` under the _logmap-conservativity_ project folder.
+* Run `mvn clean install` under the _dare-system_ project folder.
 * Dependencies:	
 
-	1. Together with the JAR file maven will also generate a folder with the "java-dependencies"
+	1. Together with the JAR file maven will also generate a folder with the "java-dependencies" (inclusing logmap-conservativity library)
 	2. The "lib" folder is also required. The "timeout" programs should be given execution permissions. 
 	3. The "asp" folder contains the logic programs needed by the SCC repair algorithm
 	4. The "resources" folder contains some example ontologies used in the tests
 
-See the [kr-2016-release](https://github.com/ernestojimenezruiz/dare-system/releases/download/kr-2016-release/dare-kr2016-release.zip) as example. `java -jar dare-system-1.0.0.jar` runs the class _uk.ac.mas.dare.KR15Environment_.
+Check out the running example in the [kr-2016-release](https://github.com/ernestojimenezruiz/dare-system/releases/download/kr-2016-release/dare-kr2016-release.zip). `java -jar dare-system-1.0.0.jar` runs the class _uk.ac.mas.dare.KR15Environment_.
 
 ## References
 
